@@ -1,0 +1,126 @@
+@import url('https://rsms.me/inter/inter.css');
+html, body { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html,body { font-family: 'Inter var', sans-serif; }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #2C2C2C;
+}
+
+main {
+    margin-top: -20px;
+}
+
+hr {
+    opacity: .5;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #b7b7b7;
+}
+
+a:active {
+    color: #b7fdfa;
+}
+
+footer {
+    color: white;
+    padding-left: 10px;
+}
+
+.container {
+    max-width: 720px;
+    height: 100%;
+    margin: auto;
+}
+
+.heading h1 {
+    margin-bottom: 5px;
+}
+
+.heading h3 {
+    margin-top: 7px;
+}
+
+.cover_image {
+    width: 100%;
+    padding-top: 37.037%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('1.gif');   
+    border-radius: 8px;
+}
+
+.contact_shelf {
+    width: 30%;
+    margin: 10px auto;
+}
+
+.contact_shelf ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_shelf li {
+  display: inline;
+}
+
+.profile_image {
+    z-index: 100;
+    position: relative;
+    margin: auto;
+    background-image: url('ujukauboi.png');
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: contain;
+    border: 3px solid #444444;
+    margin-top: -100px;
+}
+
+.card {
+    background: #444444;
+    border-radius: 8px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 2px 0 20px 0;
+}
+
+.txt {
+    padding:8px 25px 8px 25px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.pushbot {
+    margin-bottom: 30px;
+}
+
+.pushtop {
+    margin-bottom: 30px;
+}
